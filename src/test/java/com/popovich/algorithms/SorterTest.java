@@ -27,7 +27,7 @@ public class SorterTest {
     }
 
     @Test
-    public void testingBubbleSortInsertion() {
+    public void testingSortInsertion() {
         int[] sortedArray = sorter.sortInsertion(elementsArray);
 
         for (int i = 0; i < sortedArray.length - 1; i++){
